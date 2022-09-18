@@ -1,4 +1,4 @@
-# cucumber-bdd-google :D
+# cucumber-bdd-google 
  
 Start local: 
 - npm install
