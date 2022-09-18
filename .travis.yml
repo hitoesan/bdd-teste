@@ -32,7 +32,7 @@ after_success:
   - git push --force --quiet "https://${GITHUB_API_KEY}@${GH_REF}" main:gh-pages
   - echo $RESULT
   - ls
-  - cd ..
+  - cd ../..
   - ls
   - bash ./telegram_notification.sh
   
